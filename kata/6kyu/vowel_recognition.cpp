@@ -23,3 +23,12 @@ uint64_t vowelRecognition(const std::string &s) {
             t += ((s.size() - i) * (i + 1));
     return t;
 }
+
+int main() {
+    printf("%llu\n", vowelRecognition(std::string("baceb")));
+    printf("%llu\n", vowelRecognition(std::string("aeiou")));
+    printf("%llu\n", vowelRecognition(std::string("aeiouAEIOU")));
+    printf("%llu\n", vowelRecognition(std::string("bbbb")));
+
+    return 0;
+}
