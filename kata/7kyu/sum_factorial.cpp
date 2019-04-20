@@ -6,15 +6,17 @@
 
 #include <bits/stdc++.h>
 
-unsigned long long int f(int n) {
+#define llu unsigned long long int
+
+llu f(int n) {
     unsigned long long int r = 1;
     for (int i = n; i > 1; --i)
         r *= i;
     return r;
 }
 
-unsigned long long int sum_factorial(std::vector<int> v) {
-    unsigned long long int s = 0;
+llu sum_factorial(std::vector<int> v) {
+    llu s = 0;
 
     int m = v[0];
     for (std::size_t i = 1; i < v.size(); ++i)
@@ -22,15 +24,15 @@ unsigned long long int sum_factorial(std::vector<int> v) {
 
     s = f(m);
 
-    unsigned long long int t = 0;
-    unsigned long long int o = 0;
+    llu t = 0;
+    llu o = 0;
     for (std::size_t i = 0; i < v.size(); ++i) {
         if (v[i] == 1) {
             ++o;
         } else if (v[i] == m) {
             ++t;
         } else {
-            unsigned long long int k = 1;
+            llu k = 1;
             for (int p = v[i]; p > m; --p)
                 k *= p;
             t += k;
