@@ -1,3 +1,9 @@
+'''
+  codewars.com
+  Problem: encrypt this!
+  30/04/2019
+'''
+
 def encrypt_this(t):
     r = []
     for w in t.split():

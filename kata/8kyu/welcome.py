@@ -1,3 +1,9 @@
+'''
+codewars.com
+Problem: Welcome!
+Date: 30/04/2019
+'''
+
 d = { 'english': 'Welcome',
       'czech': 'Vitejte',
       'danish': 'Velkomst',
