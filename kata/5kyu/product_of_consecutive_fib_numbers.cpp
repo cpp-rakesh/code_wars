@@ -1,3 +1,9 @@
+/*
+  codewars.com
+  Problem: Rainfall
+  08/05/2019
+*/
+
 #include <bits/stdc++.h>
 
 typedef unsigned long long ull;
