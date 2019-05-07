@@ -1,6 +1,6 @@
 /*
   codewars.com
-  Problem: Rainfall
+  Problem: Product of consecutive fibonacci numbers
   08/05/2019
 */
 
