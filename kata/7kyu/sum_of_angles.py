@@ -1,6 +1,6 @@
 '''
   codewars.com
-  Problem: Going to the cinema
+  Problem: Sum of angles
   18/05/2019
 '''
 
