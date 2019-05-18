@@ -1,3 +1,9 @@
+'''
+  codewars.com
+  Problem: Distance from the average
+  18/05/2019
+'''
+
 def distances_from_average(l):
     a = 0
     for i in l:
