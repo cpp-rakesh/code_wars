@@ -1,6 +1,6 @@
 /*
   codewars.com
-  Problem: Statistics for an athletic association
+  Problem: Primorial of a number
   23/05/2019
 */
 
