@@ -1,7 +1,7 @@
 /*
   codewars.com
-  Problem: Alphabet Symmetry
-  01/09/2019
+  Problem: House number sum
+  22/12/2019
 */
 
 #include <cstdio>
