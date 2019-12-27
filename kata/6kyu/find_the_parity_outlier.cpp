@@ -1,7 +1,7 @@
 /*
   codewars.com
-  Problem: Backspace in string
-  27/12/2019
+  Problem: Find the parity outlier
+  28/12/2019
 */
 
 #include <bits/stdc++.h>
