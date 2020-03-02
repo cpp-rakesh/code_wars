@@ -1,3 +1,9 @@
+'''
+  codewars.com
+  Problem: Two oldest ages
+  03/03/2020
+'''
+
 def two_oldest_ages(ages):
     a = min(ages[0], ages[1])
     b = max(ages[0], ages[1])
