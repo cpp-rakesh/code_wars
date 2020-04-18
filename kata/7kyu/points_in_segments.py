@@ -7,15 +7,13 @@
 import sys
 
 def segments(m, a):
+    d = [0] * (m + 1)
+    for v in a:
+        for i in range(v[0], v[1] + 1):
+            d[i] = 1
     r = []
-
     for i in range(m + 1):
-        found = False
-        for t in a:
-            if i >= t[0] and i <= t[1]:
-                found = True
-                break
-        if found == False:
+        if d[i] == 0:
             r.append(i)
     return r
 
