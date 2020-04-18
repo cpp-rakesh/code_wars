@@ -3,9 +3,6 @@
   Problem: Points in segments
   18/04/2020
 '''
-
-import sys
-
 def segments(m, a):
     d = [0] * (m + 1)
     for v in a:
