@@ -11,7 +11,7 @@ int any_odd(unsigned x) {
     if (x > 0) {
         int i = 0;
         while (x) {
-            if (i % 2 == 1 && x % 2 == 1) {
+            if (i & 1 == 1 && x % 2 == 1) {
                 result = 1;
                 break;
             }
