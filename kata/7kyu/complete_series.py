@@ -1,7 +1,7 @@
 '''
   codewars.com
   Problem: Complete series
-  27/05/2020
+  28/05/2020
 '''
 
 def duplicate_test(seq):
