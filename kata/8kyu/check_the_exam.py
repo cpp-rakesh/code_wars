@@ -17,4 +17,4 @@ if __name__ == "__main__":
     print(check_exam(["a", "a", "b", "b"], ["a", "c", "b", "d"]))
     print(check_exam(["a", "a", "c", "b"], ["a", "a", "b",  ""]))
     print(check_exam(["a", "a", "b", "c"], ["a", "a", "b", "c"]))
-    print(check_exam(["b", "c", "b", "a"], ["",  "a", "a", "c"]))
+
